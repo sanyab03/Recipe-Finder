@@ -242,38 +242,24 @@ footer {
   background: #000000f1;
   color: white;
   margin-top: auto;
+  padding-top: 20px; /* Added padding top */
+  padding-bottom: 20px; /* Added padding bottom */
 }
 
 footer .content {
   max-width: 1250px;
   margin: auto;
-  padding-top: 27px;
-  padding-bottom: 40px;
-}
-
-footer .navbar-brand i {
-  color: rgba(242, 11, 11, 0.74);
-  line-height: 1.1em;
-  padding-left: 4.4rem;
-}
-
-footer .navbar-brand {
-  color: #fff;
 }
 
 footer .top {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 10px; /* Added margin bottom */
 }
 
 footer .link-boxes {
   margin-right: 55px;
-}
-
-footer .box {
-  list-style: none;
-  padding: 0;
 }
 
 footer .box .link_name {
@@ -319,14 +305,16 @@ footer .box li a:hover {
 footer .bottom-details {
   background: #000000f1;
   margin-top: auto;
+  padding-top: 10px; 
+  padding-bottom: 10px; 
 }
 
 footer .bottom_text {
   max-width: 1250px;
   margin: auto;
-  padding: 20px 40px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 footer .bottom_text span {
@@ -342,6 +330,7 @@ footer .policy_terms a {
 footer .policy_terms a:hover {
   text-decoration: underline;
 }
+
 
 /* Responsive Styling */
 @media screen and (max-width: 768px) {
