@@ -318,8 +318,8 @@ footer .box li a:hover {
 footer .bottom-details {
   background: #000000f1; 
   color: white;
-  padding-top: 20px; 
-  padding-bottom: 20px;
+  /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
   margin-top: auto;
 }
 
